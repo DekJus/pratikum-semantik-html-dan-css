@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+}
+.container {
+  width: 900px;
+  border: 5px solid;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 18px;
+}
+#biodata {
+  border: 2px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#biodata img {
+  float: left;
+}
+#biodata h1 {
+  text-align: center;
+}
+#biodata p {
+  display: block;
+  margin-left: 210px;
+  margin-top: 30px;
+}
+#biodata ul li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 18px;
+}
+.clearfloat1 {
+  clear: left;
+}
+a[href^="https://"]
+{
+  color: blue;
+  text-decoration: none;
+}
+
+/* Pendidikan */
+#pendidikan {
+  float: left;
+  border: 2px solid black;
+  width: 50%;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+#pendidikan table {
+  margin: 0 auto;
+}
+#pendidikan h2 {
+  text-align: center;
+}
+
+/* Tutup Pendidikan */
+/* Skills */
+#skills {
+  float: right;
+  border: 2px solid black;
+  width: 50%;
+  box-sizing: border-box;
+}
+#skills h2 {
+  text-align: center;
+}
+#skills ul {
+  margin: -3px;
+}
+/* Tutup Skills */
+.clearfloat3 {
+  clear: right;
+}
+/* Kontak */
+#kontak {
+  text-align: center; /* Mengatur teks di dalam parent agar berada di tengah */
+  padding: 10px;
+}
+/* Tutup Kontak */
+#biodata p::first-letter {
+  font-size: 30px;
+  color: blue;
+}
+nav ul li:hover {
+  background-color: salmon;
+}
+#pendidikan:hover {
+  background-color: lightblue;
+}
+#skills:hover {
+  background-color: pink;
+}
+#kontak:hover {
+  background-color: lightgreen;
+}
+#biodata:hover {
+  background-color: lightskyblue;
+}
